@@ -86,3 +86,8 @@ p strong.subtitle {
     margin: 10px;
     border: 2px solid gray;
 }
+
+header img {
+    display: block;
+    right: 10px;
+}
