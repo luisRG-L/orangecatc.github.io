@@ -43,9 +43,10 @@ section, article {
 main a {
     color: rgb(250, 120, 0);
     margin-left: 10px;
+    transition: color 0.5s;
 }
 main a:hover {
-    color: rgb(260, 130, 10);
+    color: rgb(5, 135, 255);
 
 }
 
