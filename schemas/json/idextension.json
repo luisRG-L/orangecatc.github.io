@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Orange Cat IDE Extension Configuration",
+    "description": "Json schema for the Orange Cat IDE extension configuration.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The extension name"
+        },
+        "version": {
+            "type": "string",
+            "description": "The extension version"
+        },
+        "description": {
+            "type": "string",
+            "description": "A brief description for the extension"
+        },
+        "author": {
+            "type": "string",
+            "description": "Extension Author"
+        },
+        "main": {
+            "type": "string",
+            "description": "The main class of the extension"
+        },
+        "id": {
+            "type": "string",
+            "description": "Extension Orange Cat ID"
+        },
+        "themes": {
+            "type": "array",
+            "description": "Orange Cat Themes",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "uri": {
+                        "type": "string",
+                        "description": "The URI Theme"
+                    }
+                }
+            }
+        }
+    },
+    "required": ["name", "version", "main", "id"],
+    "additionalProperties": true
+}
