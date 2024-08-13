@@ -1,3 +1,5 @@
+@import url('./fonts.css');
+
 body {
     margin: 0px;
 }
@@ -29,17 +31,12 @@ header nav ul li a:hover {
 }
 /**/
 
-h1 {
-    text-align: center;
-    margin-top: 0;
-}
-
 section, article {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
 }
 

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
+         url('../assets/fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype'),
+         url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
