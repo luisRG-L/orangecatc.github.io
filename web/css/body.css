@@ -32,3 +32,22 @@ main a:hover {
     margin: 10px;
     border: 2px solid gray;
 }
+
+.content {
+    position: relative;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    object-fit: cover;
+    position:absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+p {
+    
+    width: 70%;
+    margin: 0;
+}

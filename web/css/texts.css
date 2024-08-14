@@ -29,3 +29,7 @@ p strong.subtitle {
 ul li {
     margin-top: 10px;
 }
+
+p {
+    margin-bottom: 10px;
+}
