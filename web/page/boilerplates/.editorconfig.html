@@ -34,33 +34,46 @@
         <h1>Boilerplates de .editorconfig</h1>
     </header>
     <main>
+        <article>
+            <h2>¿Qué es editorconfig?</h2>
+            <div class="content">
+                <p>Editor config es una configuración valida para casi todos los editores de código
+                    y permite que tu IDE (Editor de código) obtenga que datos de formateado de texto
+                    se aplican a cada tipo de archivo, por ejemplo, puedes hacer que en .java el
+                    tabulador sean 3 espacios o también puedes señadalar el final de linea, el codificado de
+                    tu código (Normalmente UTF-8) 
+                </p>
+            </div>
+        </article>
         <section>
             <h2>Boilerplates de .editorconfig comunes</h2>
-            <div class="codespace">
-            <h3>EditorConfig Básico</h3>
-<pre><code>
-# EditorConfig page: https://editorconfig.org
-
-root = true
-
-# Unix newlines with a newline
-[*]
-end_of_line = lf
-insert_final_newline = true
-
-[*.{js,py,java}]
-charset = utf-8
-
-[*.py]
-indent_style = space
-indent_size = 4
-
-[*.java]
-index_style = tab
-
-
-
-</code></pre>
+            <div class="content">
+                <div class="codespace">
+                    <h3>EditorConfig Básico</h3>
+                    <pre><code>
+        # EditorConfig page: https://editorconfig.org
+        
+        root = true
+        
+        # Unix newlines with a newline
+        [*]
+        end_of_line = lf
+        insert_final_newline = true
+        
+        [*.{js,py,java}]
+        charset = utf-8
+        
+        [*.py]
+        indent_style = space
+        indent_size = 4
+        
+        [*.java]
+        index_style = tab
+        
+        
+        
+                    </code></pre>
+                    </div>
             </div>
         </section>
     </main>
