@@ -1,0 +1,27 @@
+.codespace {
+    background-color: gray;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.codespace h3 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+pre {
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    overflow: auto;
+}
+
+p strong.subtitle {
+    display: block;
+    margin-top: -10px;
+}
