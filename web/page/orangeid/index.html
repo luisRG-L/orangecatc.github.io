@@ -40,6 +40,18 @@
             <h2>¿Qué es un Orange ID?</h2>
             <p>Un Orange ID es un código de servidor o clave para usar para los estilos, conexiones dependiendo de tu gusto</p>
         </section>
+        <section>
+            <button onclick="showFormPopup()">Generar mi propio Orange Id</button>
+            <div class="blurred-background" id="blur"></div>
+            <div id="idgen-form" class="popup">
+                <span class="closeBtn" onclick="quitFormPopup()">&times;</span>
+                <form action="./" method="post">
+                    <label for="input1">T</label>
+                    <input type="text" >
+                    <label for="input1">Das</label>
+                </form>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>

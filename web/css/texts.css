@@ -25,3 +25,7 @@ p strong.subtitle {
     display: block;
     margin-top: -10px;
 }
+
+ul li {
+    margin-top: 10px;
+}

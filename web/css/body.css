@@ -1,6 +1,12 @@
 body {
     margin: 0px;
+    margin-bottom: -20px;
 }
+
+html {
+    scroll-behavior:smooth;
+}
+
 
 section, article {
     background-color: rgba(0, 0, 0, 0.1);
