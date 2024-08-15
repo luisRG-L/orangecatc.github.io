@@ -39,14 +39,21 @@
         <nav class="content-table">
             <ul>
                 <li><a href="#whatare">¿Qué es un Orange ID?</a></li>
-                <li><a href="#ownid">Crear mi propio ID</a></li>
+                <!--li><a href="#ownid">Crear mi propio ID</a></li-->
             </ul>
         </nav>
-        <section>
+        <section id="whatare">
             <h2>¿Qué es un Orange ID?</h2>
             <p>Un Orange ID es un código de servidor o clave para usar para los estilos, conexiones dependiendo de tu gusto</p>
         </section>
-        <section>
+        <!--section id="ownid">
+            <h2>Crear mi propio ID</h2>
+            <p>Para crear tu propio Orange Id, clica en el siguiente botón y rellena el formulario
+                que aparecerá en tu pantalla. Una vez hecho haz clic en 'Crear'.
+            </p>
+            <p>Una vez hecho eso, te dirá tu ID. Cópialo para usarlo en tus proyectos Orange Cat.
+                También se descargará un archivo .oid, Este lo debes incluir en la carpeta oids de tu proyecto.
+            </p>
             <button onclick="showFormPopup()">Generar mi propio Orange ID</button>
             <div class="blurred-background" id="blur"></div>
             <div id="idgen-form" class="popup">
@@ -56,9 +63,14 @@
                         <label for="devname">Tu nombre de desarrollador de GitHub</label>
                         <input type="text" name="devname" id="devname" required="required">
                     </div>
+                    <div class="field">
+                        <label for="projectname">El nombre de tu proyecto</label>
+                        <input type="text" name="projectname" id="projectname" required="required">
+                    </div>
+                    <button type="submit" onclick="generate()">Crear</button>
                 </form>
             </div>
-        </section>
+        </!--section-->
     </main>
     <footer></footer>
 </body>

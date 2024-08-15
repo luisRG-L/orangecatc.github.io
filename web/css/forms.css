@@ -5,6 +5,7 @@ button, .button {
     border: 0;
     font-weight: bold;
     transition:color 0.3s;
+    cursor: pointer;
 }
 
 button:hover, .button:hover {
@@ -40,7 +41,7 @@ main > form {
 
 .popup {
     display: none;
-    margin: 0%50%;
+    margin:  -25% 50%;
     position: fixed;
     background-color: #f0f0f0;
     padding: 20px;
