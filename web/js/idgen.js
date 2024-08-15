@@ -1,4 +1,3 @@
-/*
 function showFormPopup() {
     document.getElementById('idgen-form').style.display = 'block';
     document.getElementById('blur').style.display = 'block';
@@ -29,4 +28,3 @@ function generate() {
     
     quitFormPopup();
 }
-*/
