@@ -19,7 +19,7 @@ section, article {
 
 main a {
     color: rgb(250, 120, 0);
-    margin-left: 10px;
+    margin-left: 2px;
     transition: color 0.5s;
 }
 main a:hover {
