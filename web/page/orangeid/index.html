@@ -36,16 +36,26 @@
         <h1>Orange IDs</h1>
     </header>
     <main>
+        <nav class="content-table">
+            <ul>
+                <li><a href="#whatare">¿Qué es un Orange ID?</a></li>
+                <li><a href="#ownid">Crear mi propio ID</a></li>
+            </ul>
+        </nav>
         <section>
             <h2>¿Qué es un Orange ID?</h2>
             <p>Un Orange ID es un código de servidor o clave para usar para los estilos, conexiones dependiendo de tu gusto</p>
         </section>
         <section>
-            <button onclick="showFormPopup()"></button>
+            <button onclick="showFormPopup()">Generar mi propio Orange ID</button>
             <div class="blurred-background" id="blur"></div>
             <div id="idgen-form" class="popup">
                 <span class="closeBtn" onclick="quitFormPopup()">&times;</span>
                 <form action="./" method="post">
+                    <div class="field">
+                        <label for="devname">Tu nombre de desarrollador de GitHub</label>
+                        <input type="text" name="devname" id="devname" required="required">
+                    </div>
                 </form>
             </div>
         </section>
