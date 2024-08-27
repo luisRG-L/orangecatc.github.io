@@ -27,3 +27,6 @@ header img {
     display: block;
     right: 10px;
 }
+header {
+    overflow-x: auto;
+}
