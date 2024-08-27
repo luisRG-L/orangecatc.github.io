@@ -7,11 +7,16 @@ html {
     scroll-behavior:smooth;
 }
 
+main {
+    width: 95%;
+    margin: auto;
+}
 
 section, article {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 10px;
+    padding-bottom: -100%;
     margin: 10px;
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
@@ -19,7 +24,7 @@ section, article {
 
 main a {
     color: rgb(250, 120, 0);
-    margin-left: 2px;
+    margin-left: 10px;
     transition: color 0.5s;
 }
 main a:hover {
@@ -35,6 +40,7 @@ main a:hover {
 
 .content {
     position: relative;
+    padding-bottom: -80%;
 }
 
 img {
@@ -42,11 +48,16 @@ img {
     height: auto;
     object-fit: cover;
     position:absolute;
-    right: 10px;
-    bottom: 20px;
+    right: 5%;
+    bottom: 1%;
+}
+
+img.png {
+    bottom: -11%;
+    right: 8%;
 }
 
 p {
     width: 70%;
-    margin: 0;
+    margin: 0
 }

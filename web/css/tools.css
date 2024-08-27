@@ -1,0 +1,13 @@
+#build {
+    color: red;
+    font-size: 1.5rem;
+    padding: 10px;
+    position: relative;
+    font-style: oblique;
+
+
+}
+
+#build:after {
+    content: "En contrucción";
+}
