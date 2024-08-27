@@ -11,3 +11,11 @@
 #build:after {
     content: "En contrucción";
 }
+
+ul {
+    list-style-type: disc;
+}
+
+ul > li > ul {
+    list-style-type: square;
+}
