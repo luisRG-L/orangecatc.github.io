@@ -1,0 +1,1 @@
+document.querySelector('footer').innerHTML = document.querySelector("footer").innerHTML + `<p>&copy; Orange Cat</p>`;
