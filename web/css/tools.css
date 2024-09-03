@@ -2,10 +2,11 @@
     color: red;
     font-size: 1.5rem;
     padding: 10px;
-    position: relative;
     font-style: oblique;
-
-
+    position: relative;
+    margin: auto;
+    left: 47%;
+    bottom: 10px;
 }
 
 #build:after {

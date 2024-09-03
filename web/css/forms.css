@@ -41,7 +41,7 @@ main > form {
 
 .popup {
     display: none;
-    margin:  -25% 50%;
+    margin: -25% 50%;
     position: fixed;
     background-color: #f0f0f0;
     padding: 20px;
@@ -82,4 +82,32 @@ input:hover {
 
 form {
     margin-top: 10px;
+}
+
+#resize {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .popup {
+        visibility: hidden;
+    }
+
+    .blurred-background {
+        visibility: hidden;
+    }
+
+    button:hover #resize::after {
+        content: "No se puede usar esta funcionalidad desde teléfonos o tablets";
+    }
+
+    button:hover #resize {
+        color: red;
+        font-size:medium;
+        font-style: italic;
+        display: block;
+        margin: 10px;
+    }
 }
