@@ -14,9 +14,10 @@ main {
     --main-radius: 10px;
     --ocat-main-animation: unset;
     color: unset;
+    margin-bottom: 8em;
 }
 
-section, article {
+article, section {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 10px;

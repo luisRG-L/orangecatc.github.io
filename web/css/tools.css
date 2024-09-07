@@ -7,6 +7,8 @@
     margin: auto;
     left: 47%;
     bottom: 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
 }
 
 #build:after {

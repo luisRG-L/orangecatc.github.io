@@ -9,7 +9,7 @@ button, .button {
 }
 
 button:hover, .button:hover {
-    background-color: rgba(255, 155, 0, 0.6);
+    background-color: var(--primary-color);
     color: white;
 }
 
