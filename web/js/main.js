@@ -7,3 +7,16 @@ document.querySelector('footer').innerHTML = document.querySelector("footer").in
 </nav>
 <span style="font-size: 0.7em">Hecho con HTML, CSS y JS nativo</span>
 `;
+let openedNav = false;
+document.addEventListener('click', (e) => {
+    if(e.target == document.querySelector('#show-ul')) {
+        openedNav = !openedNav;
+        if(openedNav) {
+            document.querySelector("header nav ul").style.display = "block";
+            document.querySelector("header nav ul").style.backgroundColor = "black";
+            document.querySelector("header nav ul").style.zIndex = "30";
+        }else  {
+            document.querySelector("header nav ul").style.display = "none";
+        }
+    }
+})

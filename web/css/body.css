@@ -8,7 +8,7 @@ html {
 }
 
 main {
-    width: 95%;
+    width: 100%;
     margin: auto;
     --main-body-attach: rgb(50.5, 100.5, 150.5);
     --main-radius: 10px;
@@ -18,13 +18,17 @@ main {
 }
 
 article, section {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    padding: 10px;
+    padding: 10px 5%;
     padding-bottom: -100%;
-    margin: 10px;
-    margin-bottom: 30px;
-    box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
+    border-bottom: 3px solid;
+}
+
+section {
+    background-color: rgb(255, 228, 119);
+}
+
+article {
+    background-color: rgb(255, 204, 0);
 }
 
 a {
